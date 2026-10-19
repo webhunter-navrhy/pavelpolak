@@ -28,7 +28,7 @@ a{color:inherit}
 /* hlavička */
 .hlavicka{position:sticky;top:0;z-index:50;background:var(--green)}
 .hl{display:flex;align-items:center;gap:2rem;min-height:4.5rem;padding-block:.4rem}
-.logo{display:block;flex:none}.logo img{height:46px;width:auto}
+.logo{display:flex;align-items:center;min-height:44px;flex:none}.logo img{height:46px;width:auto}
 .hlavicka nav{margin-left:auto;display:flex;gap:.4rem}
 .hlavicka nav a{display:inline-flex;align-items:center;min-height:44px;padding-inline:.8rem;color:#fff;text-decoration:none;font-size:.95rem;border-radius:2rem;transition:background .2s}
 .hlavicka nav a:hover{background:rgba(255,255,255,.14)}
@@ -79,7 +79,7 @@ a{color:inherit}
 .zast-text .odkaz{display:flex;margin-top:.6rem;width:max-content}
 .zast-foto{margin:0}
 .zast-foto img{width:100%;aspect-ratio:5/4;object-fit:cover;border-radius:.5rem}
-@media(max-width:52rem){.zast{grid-template-columns:1fr}.zast.obracene .zast-text{order:0}.zast-foto{order:2}}
+@media(max-width:52rem){.zast{grid-template-columns:1fr}.zast.obracene .zast-text{order:0}.zast-foto{order:2;max-width:30rem}}
 
 /* o mně */
 .o-mne{background:var(--paper)}
