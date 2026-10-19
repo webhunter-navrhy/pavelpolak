@@ -1,0 +1,57 @@
+{
+  "slug": "pavelpolak",
+  "nazev": "Terapie v přírodě – Pavel Polák",
+  "url": "https://webhunter-navrhy.github.io/pavelpolak/",
+  "base": "/pavelpolak/",
+  "lang": "cs",
+  "popis": "Individuální a párová terapie, koučink a pobyty v přírodě. Pavel Polák, Praha 2 a Kytlice. Hojivá cesta pro duši, všímavost a laskavost k sobě.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "mlha.jpg",
+  "logo": "logo.png",
+  "theme_color": "#3f695b",
+  "typ": "ProfessionalService",
+  "ico": "68278926",
+  "kontakt": {
+    "email": "terapie@pavelpolak.com",
+    "telefon": "776 060 312",
+    "adresa": {
+      "ulice": "Kytlice 91",
+      "psc": "407 45",
+      "mesto": "Kytlice",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/pavelpolakterapievprirode"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Zpráva z webu Terapie v přírodě"
+  },
+  "nav": [
+    {
+      "text": "O mně",
+      "href": "#o-mne"
+    },
+    {
+      "text": "Cesty",
+      "href": "#cesty"
+    },
+    {
+      "text": "Místa",
+      "href": "#mista"
+    },
+    {
+      "text": "Články",
+      "href": "#clanky"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

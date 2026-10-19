@@ -1,0 +1,122 @@
+{
+ "slug": "pavelpolak",
+ "zdroj_url": "https://www.pavelpolak.com",
+ "firma": "Terapie v přírodě",
+ "obor": [
+  "zdraví a péče",
+  "sport a výuka"
+ ],
+ "ico": "",
+ "ares": null,
+ "kontakty": {
+  "emaily": [],
+  "telefony": [],
+  "adresa": "",
+  "socialni_site": []
+ },
+ "logo": {
+  "soubor": "podklady/logo.png",
+  "zdroj": "https://www.pavelpolak.com/wp-content/uploads/2021/10/cropped-Pavel-Polak-1-300x76.png",
+  "rozmery": [
+   300,
+   76
+  ]
+ },
+ "barvy": {
+  "css_promenne": {},
+  "z_css": [
+   "#2ecc71",
+   "#003388",
+   "#ff6900",
+   "#cf2e2e",
+   "#1ea0c3",
+   "#9b51e0"
+  ],
+  "z_loga": [
+   "#1f2d1a",
+   "#98bfbc",
+   "#364020",
+   "#3f695b"
+  ],
+  "theme_color": null,
+  "doporucene": [
+   "#98bfbc",
+   "#2ecc71",
+   "#003388"
+  ]
+ },
+ "fotky": [
+  {
+   "soubor": "podklady/foto/foto-01.jpg",
+   "url": "https://www.pavelpolak.com/wp-content/uploads/2019/12/qw2.jpg",
+   "sirka": 490,
+   "vyska": 380,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-02.jpg",
+   "url": "http://www.pavelpolak.com/wp-content/uploads/2017/12/stribrnky_II_MG_0928-2_eu.jpg",
+   "sirka": 900,
+   "vyska": 600,
+   "alt": ""
+  },
+  {
+   "soubor": "podklady/foto/foto-03.jpg",
+   "url": "http://www.pavelpolak.com/wp-content/uploads/2021/12/DSC_0969_orez2_800x.jpg",
+   "sirka": 800,
+   "vyska": 534,
+   "alt": ""
+  }
+ ],
+ "fakta": [
+  {
+   "typ": "h1",
+   "text": "proměň svou bolest",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "h2",
+   "text": "S laskavostí k sobě",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "h3",
+   "text": "Nejnovější příspěvky",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "h3",
+   "text": "Ochrana údajů a VOP",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "h3",
+   "text": "Chcete zasílat do mailu nové články a nabídky pobytů v přírodě?",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Dětská hravost je často tím, co se nám v dospělosti hlásí jako psychicky nepříjemné prožitky a mnohdy i zdravotní komplikace právě proto, abychom ji v sobě znovuobjevili",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Hojení a úleva, důsledek laskavého vztahu ke své bolesti",
+   "zdroj": "https://www.pavelpolak.com/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Křivda aneb když sami sobě otrávíme budoucnost minulostí",
+   "zdroj": "https://www.pavelpolak.com/"
+  }
+ ],
+ "chybi": [
+  "e-mail",
+  "telefon (do webu, ne do mailů)",
+  "IČO",
+  "fotky firmy/provozu/produktů (nalezeno 3, potřeba aspoň 6)",
+  "adresa / provozovna",
+  "potvrzení služeb a ceníku (nic nevymýšlet)"
+ ],
+ "popis_webu": "Váš příběh, situaci, krizi, nahlédneme terapeutickým směrem, ve kterém zapojíme přírodu, barvy, vůně, laskavost, uměleckého ducha."
+}

@@ -1,0 +1,114 @@
+{% extends "_base.html" %}
+{% set titulek = 'Terapie v přírodě – Pavel Polák | Praha 2 a Kytlice' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Terapie v přírodě · Praha 2 a Kytlice</p>
+      <h1>Proměň svou bolest</h1>
+      <p class="lede">Hojivá cesta pro duši. Terapie zaměřená na všímavost a laskavost k sobě, v klidném zázemí i v přírodě.</p>
+      <p class="tlacitka"><a class="tlacitko" href="mailto:{{ site.kontakt.email }}">Domluvit setkání</a><a class="odkaz" href="#cesty">Jak spolu můžeme pracovat</a></p>
+    </div>
+    <figure class="hero-foto">
+      {{ img('pavel.jpg', 'Pavel Polák, terapeut, v zeleném údolí', sizes='(min-width: 60rem) 30rem, 80vw') }}
+      <figcaption class="znacka-popis"><span class="znacka" aria-hidden="true"></span>Praha 2 → Kytlice 91</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="pas">
+  {{ img('mlha.jpg', 'Mlha v údolí při východu slunce', sizes='100vw') }}
+  <blockquote class="wrap">
+    <p>…zažíváme velká množství událostí, některé drobné, některé hluboké, osudové, zlomové. To nejcennější, co v takových situacích můžeme pro sebe a své zdraví udělat, je nalézt způsob, jak je od začátku do konce <em>s laskavostí prožít.</em></p>
+  </blockquote>
+</section>
+
+<section class="sekce cesty" id="cesty">
+  <div class="wrap">
+    <header class="sek-hlava">
+      <p class="eyebrow">Zastavení na cestě</p>
+      <h2>Jak spolu můžeme pracovat</h2>
+    </header>
+    <ol class="stezka" role="list">
+      {% for s in data.sluzby %}
+      <li class="zast {{ 'obracene' if loop.index is even }}">
+        <span class="znacka" aria-hidden="true"></span>
+        <div class="zast-text">
+          <p class="cislo">{{ s.cislo }} / {{ data.sluzby|length }}</p>
+          <h3>{{ s.nazev }}</h3>
+          <p class="podtitul">{{ s.podtitul }}</p>
+          <p>{{ s.popis }}</p>
+          <p class="meta">{{ s.meta }}</p>
+          <a class="odkaz" href="mailto:{{ site.kontakt.email }}?subject={{ s.nazev|urlencode }}">Napsat o tomto setkání</a>
+        </div>
+        <figure class="zast-foto">{{ img(s.foto, s.alt, sizes='(min-width: 60rem) 32rem, 90vw') }}</figure>
+      </li>
+      {% endfor %}
+    </ol>
+  </div>
+</section>
+
+<section class="sekce o-mne" id="o-mne">
+  <div class="wrap o-grid">
+    <figure>{{ img('priroda.jpg', 'Pavel Polák v přírodě při terapeutické práci', sizes='(min-width: 60rem) 28rem, 90vw') }}</figure>
+    <div>
+      <p class="eyebrow">O mně</p>
+      <h2>Všímavost a laskavost k sobě</h2>
+      <p class="lede">Pomáhám nalézat sám sebe, proměnit bolest ze zraňujících prožitků a nahlédnout na ně jako na zkušenost.</p>
+      <p>V mém příběhu jsem se setkal s několika osobními ztrátami. Právě to odstartovalo mou osobní i profesní proměnu a začal jsem se věnovat studiu psychoterapie. Hodnoty jsem našel v jednoduchosti a v životních prožitcích.</p>
+      <p>Jako terapeut a kouč se věnuji jednotlivcům a párům. Spolupracuji také se školami, kde podporuji emoční gramotnost a vztahy mezi učiteli, žáky a rodiči. Rád zkoumám propojení mezi přírodou a člověkem.</p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce mista" id="mista">
+  <div class="wrap">
+    <header class="sek-hlava">
+      <p class="eyebrow">Dvě místa, kde mě najdete</p>
+      <h2>Bezpečný prostor pro vaši terapii</h2>
+    </header>
+    <div class="mista-grid">
+      <article>
+        {{ img('praha.jpg', 'Terapeutický prostor v Praze: křesla, konferenční stolek a rostliny', sizes='(min-width: 60rem) 34rem, 90vw') }}
+        <h3>Praha 2</h3>
+        <p>Klidný prostor v areálu Emauzské opatství, kousek od Karlova náměstí.</p>
+        <p class="adresa">Vyšehradská 49, Praha 2</p>
+      </article>
+      <article>
+        {{ img('kytlice.jpg', 'Prostorná terapeutická místnost v Kytlicích s trámovým stropem', sizes='(min-width: 60rem) 34rem, 90vw') }}
+        <h3>Kytlice</h3>
+        <p>Krásná příroda a velký vnitřní prostor pro vaši sebepoznávací a ozdravnou proměnu.</p>
+        <p class="adresa">Kytlice 91, 407 45 Kytlice</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sekce clanky" id="clanky">
+  <div class="wrap">
+    <header class="sek-hlava">
+      <p class="eyebrow">Svět písma a sdělení</p>
+      <h2>Z blogu</h2>
+    </header>
+    <ul role="list" class="clanky-seznam">
+      {% for c in data.clanky %}
+      <li><a href="https://www.pavelpolak.com/?page_id=430" rel="noopener"><time>{{ c.datum }}</time><span><strong>{{ c.nazev }}</strong>{{ c.ukazka }}</span></a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce kontakt" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <p class="eyebrow">Kontakt</p>
+      <h2>Napište, ozvu se vám</h2>
+      <p class="lede">První krok bývá nejtěžší. Stačí pár vět, o co jde, a domluvíme si setkání v Praze, v Kytlicích nebo v přírodě.</p>
+      <p class="kontakt-udaje"><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a><br><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p class="drobne">Pavel Polák · IČ {{ site.ico }}</p>
+    </div>
+    {% include "_formular.html" %}
+  </div>
+</section>
+{% endblock %}

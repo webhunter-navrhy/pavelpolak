@@ -1,0 +1,47 @@
+[
+ {
+  "cislo": "1",
+  "nazev": "Individuální terapie",
+  "podtitul": "Hojivá cesta pro duši",
+  "popis": "Terapie zaměřená na všímavost a proměnu bolavých prožitků. Rodinné vazby, vztah s dětmi, partnerství, finance, přátelství, kariéra, nebo vycházejí vaše obtíže z jiné životní oblasti? Setkání probíhá v terapeutickém zázemí, ale také v přírodě.",
+  "meta": "1 hodina · 1 000 Kč",
+  "foto": "ruce.jpg",
+  "alt": "Dvě dlaně proti sobě v černobílém světle"
+ },
+ {
+  "cislo": "2",
+  "nazev": "Párová terapie",
+  "podtitul": "Hledáme ozdravnou změnu",
+  "popis": "Často očekáváme od vztahu to, co tam nenacházíme. Párová terapie nabídne hojivý prostor pro orientaci v sobě samotných a povede vás ke zvládání vztahových, emočně obtížných situací a k autonomii.",
+  "meta": "1,5 hodiny · 1 500 Kč",
+  "foto": "odpocinek.jpg",
+  "alt": "Dva lidé odpočívají v trávě v podzimním světle"
+ },
+ {
+  "cislo": "3",
+  "nazev": "Skupinová setkání",
+  "podtitul": "Podpůrná skupina pro náročné období",
+  "popis": "Jednou za dva týdny se potkáváme ve skupině mužů a žen, kteří řeší krátkodobé či dlouhodobé obtíže. Pracujeme s tělem, sdílíme, zkoumáme základní potřeby. Setkáváme se uvnitř i v blízké přírodě. Podmínkou je první individuální schůzka.",
+  "meta": "Termíny a cena podle aktuální nabídky",
+  "foto": "skupina.jpg",
+  "alt": "Skupina lidí sedí v kruhu na zahradě kolem mandaly"
+ },
+ {
+  "cislo": "4",
+  "nazev": "Pobyty v divoké přírodě",
+  "podtitul": "Transformační cesta pro duši",
+  "popis": "Pobyty vás vyvedou z komfortní zóny a nabídnou setkání s emocemi, které v divokosti přírody snadno přicházejí. Cílem je respektující vztah k sobě, prevence vyhoření a proměna bolavých emocí.",
+  "meta": "Termíny podle aktuální nabídky",
+  "foto": "udoli.jpg",
+  "alt": "Mlhy nad lesem a skalami při východu slunce"
+ },
+ {
+  "cislo": "5",
+  "nazev": "Koučink",
+  "podtitul": "Efektivní cesta pro změnu a růst",
+  "popis": "Pozitivní přístup, funkční strategie a jasný cíl v daném čase. Motivace, vyhoření, nerozhodnost, změna práce či partnerství, hodnoty a talenty, nastavení záměru. Využívám terapeutické zkušenosti i nové poznatky o práci s emocemi.",
+  "meta": "Individuálně dle domluvy",
+  "foto": "priroda.jpg",
+  "alt": "Pavel Polák v trávě při práci s přírodou"
+ }
+]
