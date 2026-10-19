@@ -27,15 +27,15 @@ a{color:inherit}
 
 /* hlavička */
 .hlavicka{position:sticky;top:0;z-index:50;background:var(--green)}
-.hl{display:flex;align-items:center;gap:2rem;min-height:4.5rem;padding-block:.4rem}
-.logo{display:flex;align-items:center;min-height:44px;flex:none}.logo img{height:46px;width:auto}
+.hl{display:flex;align-items:center;gap:2rem;min-height:5rem;padding-block:.4rem}
+.logo{display:flex;align-items:center;min-height:44px;flex:none}.logo img{height:56px;width:auto}
 .hlavicka nav{margin-left:auto;display:flex;gap:.4rem}
 .hlavicka nav a{display:inline-flex;align-items:center;min-height:44px;padding-inline:.8rem;color:#fff;text-decoration:none;font-size:.95rem;border-radius:2rem;transition:background .2s}
 .hlavicka nav a:hover{background:rgba(255,255,255,.14)}
 .hl-cta{display:inline-flex;align-items:center;min-height:44px;padding:.4rem 1.3rem;background:#fff;color:var(--green-d);text-decoration:none;font-weight:600;border-radius:2rem;font-size:.95rem}
 .hl-cta:hover{background:var(--sage)}
 @media(max-width:62rem){.hlavicka nav{display:none}.hl-cta{margin-left:auto}}
-@media(max-width:26rem){.logo img{height:38px}}
+@media(max-width:26rem){.logo img{height:48px}}
 
 /* tlačítka a značka */
 .tlacitka{display:flex;flex-wrap:wrap;align-items:center;gap:.8rem 2rem;margin-top:2rem}
@@ -62,7 +62,7 @@ a{color:inherit}
 .pas em{color:var(--sage)}
 
 /* stezka */
-.stezka{position:relative;display:grid;gap:clamp(4rem,8vw,7rem);padding-left:clamp(2.2rem,5vw,4.5rem)}
+.stezka[role=list]{position:relative;display:grid;gap:clamp(4rem,8vw,7rem);padding-left:clamp(2.2rem,5vw,4.5rem)}
 .stezka::before,.stezka::after{content:"";position:absolute;left:.7rem;top:.5rem;bottom:.5rem;width:0;border-left:2px dashed var(--green)}
 .stezka::before{opacity:.25}
 .stezka::after{border-left-style:solid;transform-origin:top;animation:kresli linear both;animation-timeline:view(block);animation-range:cover 10% cover 90%}

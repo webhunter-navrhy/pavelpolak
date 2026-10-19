@@ -12,7 +12,7 @@
     </div>
     <figure class="hero-foto">
       {{ img('pavel.jpg', 'Pavel Polák, terapeut, v zeleném údolí', sizes='(min-width: 60rem) 30rem, 80vw') }}
-      <figcaption class="znacka-popis"><span class="znacka" aria-hidden="true"></span>Praha 2 → Kytlice 91</figcaption>
+      <figcaption class="znacka-popis"><span class="znacka" aria-hidden="true"></span>Praha 2 a Kytlice</figcaption>
     </figure>
   </div>
 </section>
@@ -20,7 +20,7 @@
 <section class="pas">
   {{ img('mlha.jpg', 'Mlha v údolí při východu slunce', sizes='100vw') }}
   <blockquote class="wrap">
-    <p>…zažíváme velká množství událostí, některé drobné, některé hluboké, osudové, zlomové. To nejcennější, co v takových situacích můžeme pro sebe a své zdraví udělat, je nalézt způsob, jak je od začátku do konce <em>s laskavostí prožít.</em></p>
+    <p>…zažíváme velká množství událostí, některé drobné, některé hluboké, osudové, zlomové. To nejcennější, co v takových situacích můžeme pro sebe a své zdraví udělat, je nalézt způsob, jak je od začátku do konce s&nbsp;laskavostí prožít.</p>
   </blockquote>
 </section>
 
@@ -35,7 +35,6 @@
       <li class="zast {{ 'obracene' if loop.index is even }}">
         <span class="znacka" aria-hidden="true"></span>
         <div class="zast-text">
-          <p class="cislo">{{ s.cislo }} / {{ data.sluzby|length }}</p>
           <h3>{{ s.nazev }}</h3>
           <p class="podtitul">{{ s.podtitul }}</p>
           <p>{{ s.popis }}</p>
